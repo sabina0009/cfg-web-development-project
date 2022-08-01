@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
 <body> 
     
@@ -19,7 +20,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./page1.html">Page 1</a>
+                <a class="nav-link active" aria-current="page" href="./page1.html">Almafi</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./page2.html">Page 2</a>
@@ -42,7 +43,116 @@
           </div>
         </div>
       </nav>
-    
+
+        <div class = "content">
+        <h1>Italy Travel Guide</h1>
+        <h2>Why should you visit Italy?</h2>
+        <p>
+          Italy is filled with riches. It offers you spectacular cities, ancient ruins, wonderful museums, 
+          soaring mountains, great beaches, and beautiful natural scenery – all packed in one. No wonder, 
+          it features in the bucket lists of a lot of people. 
+        </p>
+        <h2>Places to visit</h2>
+        <p>
+          <ul>
+            <li>
+              <a href = "page1.html">Almafi</a> - this Italian town is a combination of centuries of intricate history, dramatic natural scenery, and delicious fresh seafood. 
+              <div class = "city-photos">
+              <img src = "./images/amalfi-coast.jpg" alt = "Almafi Coast">
+              </div>
+            </li>
+            <li>
+              Rome - famous for the Colosseum, the Roman Forum, and a sprawling metropolis of Classical architecture.
+              <div class = "city-photos">
+              <img src = "images/rome.jpg" alt = "Rome">
+              </div>
+            </li>
+            <li>
+              Venice - known also as the “City of Canals,” “The Floating City,” and “Serenissima,” is arguably one of Italy's most picturesque cities.
+              <div class = "city-photos">
+              <img src = "images/venice.jpg" alt = "Venice">
+              </div>
+            </li>
+            <li>
+              Florence - noted for its culture, Renaissance art and architecture and monuments. The city also contains numerous museums and art galleries, such as the Uffizi Gallery and the Palazzo Pitti.
+              <div class = "city-photos">
+              <img src = "images/florence.jpg" alt = "Florence">
+              </div>
+            </li>
+            <li>
+              Naples - Neapolitan cuisine is noted for its association with pizza, which originated in the city, as well as numerous other local dishes.
+              <div class = "city-photos">
+              <img src="./images/naples.jpg" alt="Naples">
+              </div>
+            </li>
+          </ul>
+        </p>  
+
+        <h2>
+          What to eat in Italy
+        </h2>
+        <p>
+          <!---Carosel of images-->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/pizza.jpg" class="d-block w-100" alt="pizza">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Pizza</h5>
+                    <p>You can find pizza literally all over Italy. Almost every restaurant will have its own version which will vary in different regions and even from the restaurant next door!</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/pesto.jpg" class="d-block w-100" alt="pesto">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Pesto</h5>
+                    <p>This is another delicacy that can be found all over Italy, but it is particularly popular in the port city of Genoa where it originated.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/tiramisu.jpg" class="d-block w-100" alt="tiramisu">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Tiramisu</h5>
+                    <p>Tiramisu can be found all throughout Italy. Many regions of the country claim to be the inventor of Tiramisu, but wherever you eat it, you’ll love it.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/artichokes.jpg" class="d-block w-100" alt="artichokes">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Artichokes</h5>
+                    <p>This dish is now symbol and specialty in the Jewish community in Rome that can be found being sold in the outdoor markets of Rome and also at Jewish restaurants like Ba’Ghetto. </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/lasagna.jpg" class="d-block w-100" alt="lasagna">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Lasagna</h5>
+                    <p>Lasagna can be found all over Italy, but it supposedly originated in the Emilia-Romagna region.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div> 
+        </p>
+      </div>
+
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
